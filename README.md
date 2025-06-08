@@ -10,7 +10,9 @@ It handles GET requests to `/greeting` and returns a JSON response.
 java -jar target/restservice-0.0.1-SNAPSHOT.jar
 ```
 
-Then open: http://localhost:8080/greeting?name=Xinlu
+Then open: 
+- Default: http://localhost:8080/greeting → returns `Hello, World!`
+- Custom name: http://localhost:8080/greeting?name=ABC → returns `Hello, ABC!`
 
 
 ## What I Practiced
